@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/questall"
+        android:title="Tất cả"
+        android:icon="@drawable/home"/>
+    <item
+        android:id="@+id/english"
+        android:title="Tiếng anh"
+        android:icon="@drawable/enlish_ic"/>
+    <item
+        android:id="@+id/informatics"
+        android:title="Tin học"
+        android:icon="@drawable/chemistry_ic"/>
+</menu>

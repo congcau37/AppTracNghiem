@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Trắc Nghiệm</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="text_accounts">All Accounts</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_email">Tài khoản</string>
+    <string name="hint_password">Mật khẩu</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="text_login">Đăng nhập</string>
+    <string name="text_register">Register</string>
+    <string name="error_message_name">Enter Full Name</string>
+    <string name="error_message_email">Enter Valid Email</string>
+    <string name="error_message_age">Enter Age</string>
+    <string name="error_message_password">Enter Password</string>
+    <string name="success_message">Registration Successful</string>
+    <string name="text_not_member">Bỏ qua</string>
+    <string name="text_already_member">Already a member? Login</string>
+    <string name="error_email_exists">Email Already Exists</string>
+    <string name="error_password_match">Password Does Not Matches</string>
+    <string name="error_valid_email_password">Wrong Email or Password</string>
+    <string name="text_hello">Hello,</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_physical_fragment">Hello Công cậu</string>
+    <string name="hello_chemistry_fragment">Hello 2018</string>
+    <string name="hello_english_fragment">Hello English Fragment</string>
+    <string name="hello_math_fragment">Test Math</string>
+    <string-array name="media_names">
+        <item>Call</item>
+        <item>Sms Dream</item>
+        <item>Sign up</item>
+        <item>Logout</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

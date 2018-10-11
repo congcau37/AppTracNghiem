@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_ic"
+            android:title="Home" />
+    </group>
+    <item android:title="Luyện Thi">
+        <menu>
+            <item
+                android:id="@+id/nav_Informatics"
+                android:icon="@drawable/tin_hoc_ic"
+                android:title="Môn Tin" />
+            <item
+                android:id="@+id/nav_english"
+                android:icon="@drawable/enlish_ic"
+                android:title="Môn Tiếng Anh" />
+        </menu>
+    </item>
+    <item android:title="Ôn tập">
+        <menu>
+            <item
+                android:id="@+id/navStruct"
+                android:icon="@android:drawable/ic_dialog_info"
+                android:title="Ôn tập" />
+
+        </menu>
+    </item>
+    <item android:title="Khác">
+        <menu>
+            <item
+                android:id="@+id/nav_information"
+                android:icon="@drawable/contact_ic"
+                android:title="Thông tin cá nhân" />
+            <item
+                android:id="@+id/nav_history"
+                android:icon="@drawable/history_ic"
+                android:title="Lịch sử" />
+            <item
+                android:id="@+id/nav_search"
+                android:icon="@drawable/search_ic"
+                android:title="Tìm kiếm" />
+
+            <item
+                android:id="@+id/nav_score"
+                android:icon="@drawable/score"
+                android:title="Điểm cao" />
+
+
+        </menu>
+    </item>
+    <item android:title="Thiết lập">
+        <menu>
+            <item
+                android:id="@+id/nav_account"
+                android:icon="@drawable/contact_ic"
+                android:title="Tài khoản" />
+
+        </menu>
+    </item>
+</menu>

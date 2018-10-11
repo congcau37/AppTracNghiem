@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.AccountFragment">
+
+    <TextView
+    android:id="@+id/txt_acc_name"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/form_staff_title_area"
+    android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+    android:text="Tài khoản" />
+
+    <TextView
+        android:id="@+id/edt_acc_name"
+        android:layout_width="249dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/form_staff_title_area"
+        android:text=""
+        android:paddingTop="20dp"
+        android:paddingLeft="40dp"
+        android:layout_toRightOf="@+id/txt_acc_name"
+        android:layout_marginRight="19dp" />
+
+    <TextView
+        android:id="@+id/txt_txt_acc_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:layout_below="@+id/txt_acc_name"
+        android:paddingLeft="20dp"
+        android:text="Mật khẩu cũ" />
+
+    <EditText
+        android:id="@+id/edt_acc_password"
+        android:layout_width="249dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edt_acc_name"
+        android:text=""
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="19dp" />
+    <TextView
+        android:id="@+id/txt_txt_acc_new_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:layout_below="@+id/txt_txt_acc_password"
+        android:paddingLeft="20dp"
+        android:text="Mật khẩu mới" />
+
+    <EditText
+        android:id="@+id/edt_acc_new_password"
+        android:layout_width="249dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edt_acc_password"
+        android:text=""
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="19dp" />
+    <Button
+        android:id="@+id/ibt_save"
+        android:layout_margin="50dp"
+        android:layout_marginLeft="20dp"
+        android:text="Lưu"
+        android:layout_below="@+id/edt_acc_new_password"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:background="@drawable/bg_round_button"
+        />
+    <Button
+        android:id="@+id/ibt_cancel"
+        android:layout_margin="50dp"
+        android:layout_alignParentRight="true"
+        android:text="Hủy"
+        android:layout_below="@+id/edt_acc_new_password"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:background="@drawable/bg_round_button"
+        />
+</RelativeLayout>

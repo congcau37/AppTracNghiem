@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/en_learn"
+    tools:context=".fragment.EnglishFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RadioGroup
+        android:id="@+id/rdg_level"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:paddingLeft="5dp"
+        android:orientation="horizontal"
+        >
+        <RadioButton
+            android:id="@+id/rdb_lv_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Level 1"
+            />
+        <RadioButton
+            android:id="@+id/rdb_lv_2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Level 2"
+            />
+        <RadioButton
+            android:id="@+id/rdb_lv_3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Level 3"
+            />
+    </RadioGroup>
+    <GridView
+        android:layout_below="@+id/rdg_level"
+        android:numColumns="2"
+        android:id="@+id/grv_english"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></GridView>
+
+</RelativeLayout>
